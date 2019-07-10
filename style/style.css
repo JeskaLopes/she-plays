@@ -123,13 +123,18 @@ a {
 
 .discord{
     background-image: radial-gradient( circle farthest-corner at 90.8% 12.5%,  rgba(3,19,46,1) 0%, rgba(28,19,19,1) 90% );
-    height: 180vh;
+    height: 230vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top:5%;
 
+}
+
+.forum-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px; 
 }
 
 .bg-title{
@@ -147,12 +152,14 @@ a {
 .discord-interface{
     text-align: center;
     width: 100%;
-    height: 50vh;
+    height: 55vh;
     padding:3% 5% 3% 3%;
 }
 
+
 .discord-profiles-link{
-    height: 80vh;
+    height: 110vh;
+    padding-left: 6%;
 }
 
 .font-card{
@@ -161,19 +168,92 @@ a {
     font-size:12px;
 }
 
+/* form */
 
+.form{
+    background-image: url(../assets/img/1552482255236-pain-wesg-3.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#form{
+    background-image: radial-gradient( circle 1278px at 49.9% 50%,  rgba(31,43,86,1) 8.3%, rgba(0,117,201,1) 96.6% );
+    width: 50%;
+    margin: 0 25% 0 25%;
+    padding: 5% 0 5% 0 ;
+}
 
+.form-title{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 4%;
+    font-size: 40px; 
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    -webkit-text-stroke: 0.0625rem white;
+    font-weight: 800;
+    opacity:0.45;
+    -moz-opacity: 0.45;
+    filter: alpha(opacity=45);
+    font-weight: 800;
+    line-height: 0.1875rem;
+    opacity: 0.45;
+}
 
+.form-subtitle{
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    width: 93%;
+    padding: 6% 2% 2% 2%;
+    margin: 0 auto;
+}
 
+.text-area-label{
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+    color: whitesmoke;
+    text-align: center;
+    width: 93%;
+    padding: 6% 2% 2% 2%;
+    margin: 0 auto;
+}
 
-
-
-
-
-
-.eita{
+.bg-input{
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,222,239,1) 0%, rgba(254,237,245,1) 48.5%, rgba(239,175,186,0.50) 100.2% );
+}
+
+
+/* footer */
+
+.footer{
+    background-image: linear-gradient(to right, rgba(81, 99, 149, 1),rgba(136, 77, 128, 1));
+    height: 14vh;
+}
+
+.footer-texts{
+    padding: 2% 3% 0 0;
+}
+
+.icons{
+    padding: 2% 0 0 0;
+    text-align: end;
+    color: white;
+    line-height: 15px;
+    font-size: 13px;
+    margin-right: 0;
+}
+
+.icon{
+    font-size: 38px;
+    text-align: center;
+}
+
+.contact-me{
+    font-weight: bold;
 }
 
 
@@ -183,28 +263,26 @@ a {
 
 
 
+/* form-verification */
+#divSucesso, #divSucessoAntenado{
+    margin:0 auto; 
+    text-align: center;
+    display: none;
+}
 
 
+#divErro, #divErroAntenado{
+    margin:0 auto; 
+    text-align: center; 
+    display:none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#divSucessoAntenado, #divErroAntenado{
+    margin-bottom: 1em;
+}
+.active{
+    display:block!important;
+  }
 
 
 
