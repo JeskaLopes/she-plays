@@ -5,8 +5,6 @@ let campo = document.getElementById('exampleFormControlTextarea1');
 let sucesso = document.getElementById('divSucesso');
 let erro = document.getElementById('divErro');
 
-
-
 form.addEventListener('submit', function(e) {
     e.preventDefault(); 
     if(nome.value == "" | sobrenome.value =="" | campo.value == ""){

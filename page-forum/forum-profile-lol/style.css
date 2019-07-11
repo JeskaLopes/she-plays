@@ -21,7 +21,6 @@ body {
 a {
     cursor: pointer;
 }
-
 /* navbar */
 
 .bg-purple{
@@ -42,93 +41,17 @@ a {
     width: 51px;
 }
 
-/* header */
-
-.h-bg{
-    height: 95vh;
-}
-
-.leg{
-    margin-bottom: 20%;
-}
-
-.leg-3{
-    margin-bottom: 15%; 
-}
-
-.header-title{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px; 
-}
-
-.header-subtitle{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px; 
-    font-weight: 300;
-}
-
-/* quem somos */
-.quemsao{
-    background-image: linear-gradient(to right, rgba(81, 99, 149, 1),rgba(136, 77, 128, 1));
-    height: 90vh;
-    display:flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.text-section{
-    width:43%;
-    font-size:20px;
-}
-
-.img-section img{
-    width:400px;
-}
-
-.header-title-m{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 35px; 
-}
-
-.subtitle-section{
-    font-size: 18px;
-}
-
-/* comunidade */ 
-
-.comunidade{
-    background-image: url(../assets/img/A-equipe-CLG-Red-de-CS-GO.jpg);
-    height: 90vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.com-content{
-    width: 40%;
-    height: 50vh;
-    background-image: linear-gradient( 108.8deg,  rgba(1,22,56,1) 21.9%, rgba(52,33,158,1) 92.2% );
-    color:white;
-    margin:10% 5% 10% 0;
-}
-
-.content-text{
-    width: 60%;
-    margin: 5% 4% 5% 4%;
-    font-size: 20px;
-}
 
 /* forum */
 
 .discord{
     background-image: radial-gradient( circle farthest-corner at 90.8% 12.5%,  rgba(3,19,46,1) 0%, rgba(28,19,19,1) 90% );
-    height: 230vh;
+    height: 180vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top:5%;
+    padding-top:10%;
 
 }
 
@@ -152,13 +75,13 @@ a {
 .discord-interface{
     text-align: center;
     width: 100%;
-    height: 55vh;
+    height: 50vh;
     padding:3% 5% 3% 3%;
 }
 
 
 .discord-profiles-link{
-    height: 110vh;
+    height: 74vh;
     padding-left: 6%;
 }
 
@@ -167,66 +90,6 @@ a {
     font-weight: bold;
     font-size:12px;
 }
-
-/* form */
-
-.form{
-    background-image: url(../assets/img/1552482255236-pain-wesg-3.jpeg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#form{
-    background-image: radial-gradient( circle 1278px at 49.9% 50%,  rgba(31,43,86,1) 8.3%, rgba(0,117,201,1) 96.6% );
-    width: 50%;
-    margin: 0 25% 0 25%;
-    padding: 5% 0 5% 0 ;
-}
-
-.form-title{
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 4%;
-    font-size: 40px; 
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-    -webkit-text-stroke: 0.0625rem white;
-    font-weight: 800;
-    opacity:0.45;
-    -moz-opacity: 0.45;
-    filter: alpha(opacity=45);
-    font-weight: 800;
-    line-height: 0.1875rem;
-    opacity: 0.45;
-}
-
-.form-subtitle{
-    font-family: 'Montserrat', sans-serif;
-    color: whitesmoke;
-    text-align: center;
-    width: 93%;
-    padding: 6% 2% 2% 2%;
-    margin: 0 auto;
-}
-
-.text-area-label{
-    font-family: 'Montserrat', sans-serif;
-    font-size:15px;
-    color: whitesmoke;
-    text-align: center;
-    width: 93%;
-    padding: 6% 2% 2% 2%;
-    margin: 0 auto;
-}
-
-.bg-input{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,222,239,1) 0%, rgba(254,237,245,1) 48.5%, rgba(239,175,186,0.50) 100.2% );
-}
-
-
 /* footer */
 
 .footer{
@@ -255,28 +118,48 @@ a {
 .contact-me{
     font-weight: bold;
 }
+/* fim-footer */
 
+/* inicio forum-interface */
 
-/* form-verification */
-#divSucesso, #divSucessoAntenado{
-    margin:0 auto; 
+.forum-cardtext{
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    border-color: #eee #ddd #bbb;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    padding:15px 16px 16px 16px;
+    width:50%;
+    display:flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+.profile-card{
+    width:50px;
+    margin:0 auto
+}
+.img .texts{
     text-align: center;
-    display: none;
+}
+
+.texts{
+    margin: 0 auto;
+    padding-top: 4%;
+    line-height:10px;
+}
+
+.texts-content{
+    margin: 0 auto;
+    padding-left: 4% 
 }
 
 
-#divErro, #divErroAntenado{
-    margin:0 auto; 
-    text-align: center; 
-    display:none;
-}
-
-#divSucessoAntenado, #divErroAntenado{
-    margin-bottom: 1em;
-}
-.active{
-    display:block!important;
-}
 
 @media(max-width:420px){
     .quemsao{
@@ -306,6 +189,18 @@ a {
         width: 63%;
     }
 
+    .bg-title{
+        width: 100%;
+    }
+
+    .discord{
+        padding-top:29%;
+        height: 196vh;
+    }
+
+    .forum-cardtext{
+        width: 77%
+    }
     .content-text {
         width: 100%;
     }
@@ -360,3 +255,4 @@ a {
         height: 23vh;
     }
 }
+
