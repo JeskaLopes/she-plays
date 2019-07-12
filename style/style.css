@@ -360,3 +360,7 @@ a {
         height: 23vh;
     }
 }
+
+#correct{
+    text-decoration: none;
+}

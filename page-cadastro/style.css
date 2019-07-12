@@ -97,7 +97,8 @@ a {
 /* form */
 
 .form{
-    background-image: url(../assets/img/1552482255236-pain-wesg-3.jpeg);
+    padding: 15% 0 10% 0;
+    background-image: url(../assets/img/header-dark.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -259,6 +260,10 @@ a {
     #form{
         margin: 0 auto;
         width: 71%;
+    }
+
+    .form{
+        padding-top: 29%;
     }
 
     .form-title{
